@@ -1,0 +1,29 @@
+section.places {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+section.places h1 {
+	font-size: 30px;
+	padding-left: 10px;
+	width: 100%;
+	/*Para que tome todo el espacio que le corresponde al título y las cajas se distribuyan correctamente*/
+}
+
+section.places article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ff5a5f;
+	border-radius: 5px;
+}
+
+section.places article h2 {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 0;
+}
