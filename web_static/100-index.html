@@ -6,16 +6,19 @@
 	<link rel="stylesheet" href="styles/3-footer.css">
 	<link rel="stylesheet" href="styles/3-header.css">
 	<link rel="stylesheet" href="styles/6-filters.css">
-	<link rel="stylesheet" href="styles/8-places.css">
+	<link rel="stylesheet" href="styles/100-places.css">
 	<link rel="shortcut icon" href="images/icon.png">
 	<link rel="icon" href="images/icon.png">
 </head>
 <body>
 	<header>
 	</header>
+	<!--Search  bar-->
 	<div class="container">
 		<section class="filters">
+			<!--Botton search-->
 			<button >Search</button>
+			<!--Locations Dropdown-->
 			<div class="locations">
 				<h3>States</h3>
 				<h4>California, Arizona...</h4>
@@ -34,6 +37,8 @@
 					</li>
 				</ul>
 			</div>
+
+			<!--Amenities Dropdown-->
 			<div class="amenities">
 				<h3>Amenities</h3>
 				<h4>Internet, Kitchen...</h4>
@@ -45,8 +50,10 @@
 				</ul>
 			</div>
 		</section>
+		<!--Places-->
 		<section class="places">
 				<h1>Places</h1>
+				<!--Description of the first place-->
 				<article>
 					<h2>My home</h2>
 					<div class="price_by_night">
@@ -71,8 +78,32 @@
 						It locates at the center of Shangai and next to subway line 1, 1 stop to People Square, 
 						2 stops to Bund, 3 stops to Jingan Temple
 					</div>
+					<!--Extra information-->
+					<div class="amenities">
+						<h2>Amenities</h2>
+						<ul class="list-icons">
+							<li class="first-icon">TV</li>
+							<li class="second-icon">WiFi</li>
+							<li class="third-icon">Pets Friendly</li>
+						</ul>
+					</div>
+					<div class="reviews">
+						<h2>Reviews</h2>
+						<ul class="list-info">
+							<li>
+								<h3>From Bob Dylan the 27th January 2017</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+									labore et dolore magna aliqua. </p>
+							</li>
+							<li>
+								<h3>From Connor the 4th January 2017</h3>
+								<p>Lorem ipsum dolor sit amet</p>
+							</li>
+						</ul>
+					</div>
 				</article>
-				
+
+				<!--Description of the second place-->
 				<article>
 					<h2>Tiny House</h2>
 					<div class="price_by_night">
@@ -100,8 +131,10 @@
 						area that adds character at the room and a great porch/deck to relax on and have a glass of
 						Merlot.
 					</div>
+					
 				</article>
 				
+				<!--Description of the third place-->
 				<article>
 					<h2>A suite</h2>
 					<div class="price_by_night">
@@ -134,6 +167,7 @@
 		</section>
 	</div>
 
+	<!--Footer section-->
 	<footer>
 		Holberton School
 	</footer>
